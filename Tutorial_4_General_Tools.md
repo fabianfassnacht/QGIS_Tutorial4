@@ -133,7 +133,20 @@ As last useful tool in this Tutorial, we will get to know the “info-tool”. T
 
 The same procedure can be repeated for the raster file by
 
-**first selecting the “S2 Neapel sm2” layer in the layer window of QGIS and then again using the “info-button” tool to click on any pixel of the raster dataset. All values of the 10 raster bands will then be shown in the “Identify results” window.**
+**first selecting the “S2 Neapel sm2” layer in the layer window of QGIS and then again using the “info-button” tool to click on any pixel of the raster dataset. All values of the 10 raster bands will then be shown in the “Identify results” window. By switching the view-option from "tree" to "graph" as shown in Figure 12 you can visualize the spectrum of a given pixel**
 
 You should now be familiar with the most important general tools of QGIS that will ease your daily life with handling and navigating through geodata in QGIS.
+
+![Figure 12: Deriving a spectrum using the “info-button”.](Fig12_Tut4.png)
+
+**Figure 12: Deriving a spectrum using the “info-button”. 
+
+## Exercise Tutorial 4
+
+To further familiarize yourself with the tools you have just learned to handle, please solve the following tasks:
+
+1. Measure the area of the crater of the volcano
+2. Identify the residential area closest to the crater and register its osm_id (one attribute you can derive using the info button)
+3. Measure the distance of the residential area to the center of the crater (use the approximately shortest distance between the polygon and the center of the crater)
+4. Try to identify four different land-cover classes in the satellite image and use the info-button to display the spectra of the land-cover classes. Please make screenshots (using the "print screen/Druck" button on your keyboard and then "paste/einfügen" in some graphic program - or maybe you also have an alternative screenshot tool on your computer) of the spectra and describe the differences you observe for the four classes in your own words. Feel free to make more than one screenshot per class to better understand how the classes you identified differ in their spectral behaviour.
 
