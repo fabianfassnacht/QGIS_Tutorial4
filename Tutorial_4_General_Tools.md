@@ -129,7 +129,7 @@ As last useful tool in this Tutorial, we will get to know the “info-tool”. T
 
 ![Figure 11: Example for retrieving the attribute data of a spatial feature of a Shapefile using the “info-button”.](Fig11_Tut4.png)
 
-**Figure 11: Retrieving attribute information using the info-button tool. 
+**Figure 11: Retrieving attribute information using the info-button tool.** 
 
 The same procedure can be repeated for the raster file by
 
@@ -139,7 +139,7 @@ You should now be familiar with the most important general tools of QGIS that wi
 
 ![Figure 12: Deriving a spectrum using the “info-button”.](Fig12_Tut4.png)
 
-**Figure 12: Deriving a spectrum using the “info-button”. 
+**Figure 12: Deriving a spectrum using the “info-button”.** 
 
 ## Exercises Tutorial 4
 
