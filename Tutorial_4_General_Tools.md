@@ -41,7 +41,7 @@ You will see that QGIS will now automatically returns to the extent of the “S2
 
 OK, now we have learned how we can directly zoom to the extent of a loaded layer. However, we might also want to zoom-in to a specific subset of our study area. We can do this by
 
-**selecting the “zoom-in” button marked with “2” in Figure 1 and then either click on the area where we want to zoom-in or alternatively click and drag the mouse curson to form a rectangle to which QGIS will then zoom in. A further alternative to using the “zoomin” button is to simply use the mouse–wheel. If you navigate the mouse cursor over the main visualization window and rotate the mouse-wheel you will directly see the zoom–effect.**
+**selecting the “zoom-in” button marked with “2” in Figure 1 and then either click on the area where we want to zoom-in or alternatively click and drag the mouse curson to form a rectangle to which QGIS will then zoom in. A further alternative to using the “zoom-in” button is to simply use the mouse–wheel. If you navigate the mouse cursor over the main visualization window and rotate the mouse-wheel you will directly see the zoom–effect.**
 
 In case you want to zoom-out again, you have several options to do this. We have already learned to use the right-click on one of the layers to select the option “Zoom to Layer”, alternatively we can either
 
@@ -49,11 +49,13 @@ In case you want to zoom-out again, you have several options to do this. We have
 
 As a last alternative for zooming, we will now learn how to first select a specific spatial object in a vector file and then zoom-in to this object. To achieve this,
 
-**select the “select Features” button marked with “6“ in Figure 1. Then click on one of the polygons of the “gis.osm landuse a free 1” layer. You have to make sure that the “gis.osm landuse a free 1” layer is currently activated in the layer window of QGIS. Otherwise, the button might be greyed out.**
+**select the “select Features” button marked with “6“ in Figure 1. Then click on one of the polygons of the “gis.osm landuse a free 1” layer. You have to make sure that the “gis.osm landuse a free 1” layer is currently activated/selected in the layer window of QGIS. Otherwise, the button might be greyed out.**
 
 ![Figure 2: Selecting a spatial object in QGIS](Fig2_Tut4.png)
 
-This will lead to a situation similar to as the one presented in Figure 2. Here, a polygon located close to the volcano was selected and is now highlighted with yellow color. As next step, we
+**Figure 2: Selecting a spatial object in QGIS**
+
+This will lead to a situation similar to the one presented in Figure 2. Here, a polygon located close to the volcano was selected and is now highlighted with yellow color. As next step, we
 
 **press the “zoom to selected object” button marked with “7” in Figure 1**
 
@@ -61,16 +63,19 @@ QGIS will now zoom-in to the selected object as seen in Figure 3.
 
 ![Figure 3: Zooming in to a selected spatial object](Fig3_Tut4.png)
 
-You are now able to efficiently navigate within the QGIS visualization window. In the next sections we will learn three more useful general options of QGIS that you will most likely often use.
+**Figure 3: Zooming in to a selected spatial object**
+
+You are now able to efficiently navigate within the QGIS visualization window. In the next sections we will learn three more useful general tools of QGIS that you will most likely often use.
 
 ## 2 Arranging Layers and adding transparency
-If you have followed the recommendation above to first load the raster file and then the shapefile, you will have recognized that the raster layer is displayed below the shapefile. If we want to change this, we can re-arrange the layers in the layer window of QGIS. To do this, we simply
+If you have followed the recommendation above to first load the raster file and then the shapefile, the raster layer is currently displayed below the shapefile. If we want to change this, we can re-arrange the layers in the layer window of QGIS. To do this, we simply
 
 **click and hold the “gis.osm landuse a free 1” layer and drag it below the “S2 Neapel sm2” layer.**
 
 You will see that this will shift the vector file below the satellite raster data in the main visualization window (Figure 4).
 
 ![Figure 4: Shifting the satellite layer to the top](Fig4_Tut4.png)
+**Figure 4: Shifting the satellite layer to the top**
 
 So, as quite inuitively understandable, the layer position in the layer window also always determines the order in which the layers are visualized. However, the visualization of a layer can also be completely deactived **by unchecking the checkboxes on the left besides the name of the layers that are depicted in the layer window of QGIS**
 
@@ -78,13 +83,19 @@ In Figure 5 the layer containing the satellite raster layer was deactivated by u
 
 ![Figure 5: Deactivating a layer](Fig5_Tut4.png)
 
+**Figure 5: Deactivating a layer**
+
 Shifting the satellite data on top of the vector layer did not really improve the visualization situation as now all spatial objects overlaping with the satellite raster data became invisible. So we will now try to find a solution in which both datasets are displayed at the same time with a minimum loss of information due to the overlapping. To do this, we first
 
-**rearrange the layer once more to have the satellite raster layer below the shapefile layer. Next we will right-click the “gis.osm landuse a free 1” layer and select “properties”. In the appearing properties window we select the “Style” tab. As shown in Figure 6, we will now change the “Layer transparency” option in the “Layer rendering” section from 0 to 50 and accept the new settings with pressing “Apply” and then “OK”.**
+**rearrange the layer once more to have the satellite raster layer below the shapefile layer. Next we will right-click the “gis.osm landuse a free 1” layer and select “properties”. In the appearing properties window we select the “Symbology” tab. As shown in Figure 6, we will now change the “Layer transparency” option in the “Layer rendering” section from 0 to 50 and accept the new settings with pressing “Apply” and then “OK”.**
 
 ![Figure 6: Adapting the transparency settings of a layer](Fig6_Tut4.png)
 
+**Figure 6: Adapting the transparency settings of a layer**
+
 ![Figure 7: New visualization with the transparent Shapefile](Fig7_Tut4.png)
+
+**Figure 7: New visualization with the transparent Shapefile**
 
 As visible in Figure 7 the “gis.osm landuse a free 1” layer is now displayed transparently and both datasets can be seen at the same time. Transparency can be added to any dataset loaded in QGIS except using the same dialogue as just described.
 
