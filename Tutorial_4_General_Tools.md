@@ -1,25 +1,20 @@
 # QGIS - Tutorials 
 ## Tutorial 4 - Useful general tools in QGIS 
 
-Fabian Fassnacht
-
-Institute for Geography and Geoecology
-
-KIT—Karlsruhe Institute of Technology
-
-June 21, 2017
 
 **Abstract**
-After completing this tutorial you will know how to navigate efficiently in the main visualization window of QGIS. You will be able to arrange and directly zoom to layers, add transparency to a layer, measure distances in the visualization window, and obtain information on a pixel or a spatial object. Developed with QGIS version - LAS PALMAS 2.18.9
+After completing this tutorial you will know how to navigate efficiently in the main visualization window of QGIS. You will be able to arrange and directly zoom to layers, add transparency to a layer, measure distances in the visualization window, and obtain information on a pixel or a spatial object. Developed with QGIS version - Developed with QGIS version - Bialowieza 3.22.5
 
 ## 1 Efficient navigation in the visualization window of QGIS
-In the last tutorials we have learned how to open and visualize raster datasets as well as vector datasets. Now we will learn how we can navigate within the main visualization window of QGIS. We already got to know the “zoomtools” in the last Tutorial. We will now add some more tools and procedure that make life easier when navigating in QGIS. 
+In the last tutorials we have learned how to open and visualize raster datasets as well as vector datasets. Now we will learn how we can navigate within the main visualization window of QGIS. We already got to know the “zoom-tools” in the last Tutorial. We will now add some more tools and procedures that make life easier when navigating in QGIS. 
 
 To learn about these functionalities, we first have to load some data. In this case we will use the same data we already know from the two preceding Tutorials. So to start
 
-**we load the raster dataset “S2 Neapel sm2.tif” located in the “Datasets/S2” folder and the Shapefile “gis.osm landuse a free 1.shp” located in the folder “Datasets/Italy South OSM” in the same way as you have already learned in Tutorial 2 and 3. First load the raster dataset and then the shapefile.**
+**we load the raster dataset “S2 Neapel sm2.tif” and the Shapefile “gis.osm landuse a free 1.shp” in the same way as you have already learned in Tutorial 2 and 3. First load the raster dataset and then the shapefile.**
 
 ![Figure 1: The QGIS graphical user interface - in this Tutorial we will get to know all the marked buttons](Fig1_Tut4.png)
+
+**Figure 1: Overview of the tools we will get to know today**
 
 This will lead to a situation that looks like illustrated in Figure 1. We will now learn what we can do with the buttons marked in Figure 1. A brief overview of the functionalities of each button is summarized in Table 1.
 
@@ -42,7 +37,7 @@ Now you are more or less “lost” and you would like to return to the area whe
 
 **perform a right-click on the “S2 Neapel sm2” layer as listed in the layer window of QGIS, then select the first option in the menu which is called “Zoom to Layer”.**
 
-You will see that QGIS will now automatically return to the extent of the “S2 Neapel sm2” layer. This is a very useful tool that you will probably use frequently.
+You will see that QGIS will now automatically returns to the extent of the “S2 Neapel sm2” layer. This is a very useful tool that you will probably use frequently.
 
 OK, now we have learned how we can directly zoom to the extent of a loaded layer. However, we might also want to zoom-in to a specific subset of our study area. We can do this by
 
