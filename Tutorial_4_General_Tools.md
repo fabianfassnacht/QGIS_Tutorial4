@@ -100,9 +100,9 @@ Shifting the satellite data on top of the vector layer did not really improve th
 As visible in Figure 7 the “gis.osm landuse a free 1” layer is now displayed transparently and both datasets can be seen at the same time. Transparency can be added to any dataset loaded in QGIS except using the same dialogue as just described.
 
 ## 3 The measuring tool in QGIS
-We will now have a look at the “measure-tool” which is marked with “5” in Figure 1. If you have a closer look at the button of the tool you can see that there is a small arrow pointing downwards next to the button symbol. If you press this arrow you can see that there are three options for the measuring tool:
+We will now have a look at the “measure-tool” which is marked with “5” in Figure 1. If you have a closer look at the button of the tool you can see that there is a small arrow pointing downwards next to the button symbol. If you press this arrow you can see that there are four options for the measuring tool:
 
-**Measure Line** To measure linear and non-linear distances **Measure Area** To measure areas of self-drawn Polygon **Measure Angle** To measure angles between two lines
+**Measure Line** To measure linear and non-linear distances **Measure Area** To measure areas of Polygons **Measure Angle** To measure angles between two lines and **Measure Bearing** to measure the horizontal angle of an object.
 
 To see how the tool works,
 
@@ -110,18 +110,26 @@ To see how the tool works,
 
 ![Figure 8: Measuring line distances in QGIS](Fig8_Tut4.png)
 
+**Figure 8: Measuring the East-West expansion of the vulcano"
+
 **Next, we will switch to the “Measure Area” option and measure the whole extent of the volcano by drawing a polygon around it as depicted in Figure 9. As marked in Figure 9 that unit can be changed by using the marked drop-down menu.**
 
 ![Figure 9: Measuring areas in QGIS](Fig9_Tut4.png)
 
+**Figure 9: Measuring an area in QGIS**
+
 ## 4 The info–button in QGIS
 ![Figure 10: Zoom in to the area marked with the red rectangle](Fig10_Tut4.png)
+
+**Figure 10: Zoom in to the area marked with the red rectangle**
 
 As last useful tool in this Tutorial, we will get to know the “info-tool”. This tool allows us to find out either the value of a pixel of a raster file or attributes of a vector file as stored in the attribut table. To see how the tool works, we
 
 **will first zoom-in to the area marked with the red rectangle in Figure 10, then we select the “info-button” marked with “4” in Figure 1. Next, we select the “gis.osm landuse a free 1” layer in the layer window of QGIS and then click on a spatial feature of the Shapefile. QGIS will then display the attribute table information stored for this spatial feature in the new “Identify results” window that has opened after activating the “info-button” tool. In Figure 11 you can see an example for this.**
 
 ![Figure 11: Example for retrieving the attribute data of a spatial feature of a Shapefile using the “info-button”.](Fig11_Tut4.png)
+
+**Figure 11: Retrieving attribute information using the info-button tool. 
 
 The same procedure can be repeated for the raster file by
 
