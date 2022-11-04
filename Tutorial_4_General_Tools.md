@@ -75,6 +75,7 @@ If you have followed the recommendation above to first load the raster file and 
 You will see that this will shift the vector file below the satellite raster data in the main visualization window (Figure 4).
 
 ![Figure 4: Shifting the satellite layer to the top](Fig4_Tut4.png)
+
 **Figure 4: Shifting the satellite layer to the top**
 
 So, as quite inuitively understandable, the layer position in the layer window also always determines the order in which the layers are visualized. However, the visualization of a layer can also be completely deactived **by unchecking the checkboxes on the left besides the name of the layers that are depicted in the layer window of QGIS**
@@ -110,7 +111,7 @@ To see how the tool works,
 
 ![Figure 8: Measuring line distances in QGIS](Fig8_Tut4.png)
 
-**Figure 8: Measuring the East-West expansion of the vulcano"
+**Figure 8: Measuring the East-West expansion of the vulcano**
 
 **Next, we will switch to the “Measure Area” option and measure the whole extent of the volcano by drawing a polygon around it as depicted in Figure 9. As marked in Figure 9 that unit can be changed by using the marked drop-down menu.**
 
