@@ -147,7 +147,7 @@ You should now be familiar with the most important general tools of QGIS that wi
 To further familiarize yourself with the tools you have just learned to handle, please solve the following tasks:
 
 1. Measure the area of the crater of the volcano
-2. Identify the residential area closest to the crater and register its osm_id (one attribute you can derive using the info button)
+2. Identify the residential area (visually) closest to the crater and register its osm_id (one attribute you can derive using the info button)
 3. Measure the distance of the residential area to the center of the crater (use the approximately shortest distance between the polygon and the center of the crater)
 4. Try to identify four different land-cover classes in the satellite image and use the info-button to display the spectra of the land-cover classes. Please make screenshots (using the "print screen/Druck" button on your keyboard and then "paste/einfügen" in some graphic program - or maybe you also have an alternative screenshot tool on your computer) of the spectra and describe the differences you observe for the four classes in your own words. Feel free to make more than one screenshot per class to better understand how the classes you identified differ in their spectral behaviour.
 
